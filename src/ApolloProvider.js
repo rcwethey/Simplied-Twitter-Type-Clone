@@ -4,7 +4,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@ap
 import { setContext } from '@apollo/client/link/context';
 
 const cache = new InMemoryCache();
-const link = createHttpLink({ uri: 'http://localhost:3001' });
+const link = createHttpLink({ uri: 'https://twitter-clone-serverside.herokuapp.com' });
 const authLink = setContext((_, {headers}) => {
   const token = localStorage.getItem('jwtToken');
     return {
