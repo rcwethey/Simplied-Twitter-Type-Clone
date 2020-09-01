@@ -1,0 +1,21 @@
+.form-container{
+ width: 400px;
+ margin: auto;
+}
+
+.ui.grid{
+  margin: auto;
+}
+
+.ui.grid>.row>.column{
+  margin: auto;
+}
+
+.card-container {
+  width: 500px;
+}
+
+.ui.teal.button:focus, 
+.ui.teal.buttons .button:focus{
+  background-color: #00b5ad;
+}
