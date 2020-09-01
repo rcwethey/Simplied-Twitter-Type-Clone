@@ -8,6 +8,9 @@ import PostCard from '../components/postCard';
 import { AuthContext } from '../context/auth';
 import PostForm from '../components/postForm';
 
+//* Imported CSS
+import '../App.css'
+
 //* Imported GraphQL
 import {FETCH_POSTS_QUERY} from '../util/graphQL';
 

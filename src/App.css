@@ -7,6 +7,10 @@
   margin: auto;
 }
 
+.ui.primary.button{
+  background-color: #00b5ad;
+}
+
 .ui.grid>.row>.column{
   margin: auto;
 }
