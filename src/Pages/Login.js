@@ -54,7 +54,7 @@ const Login = props => {
           error={errors.password ? true : false}
           onChange={onChange}
         />
-        <Button type="submit" color="teal" primary>
+        <Button type="submit" color='teal' primary>
           Login
         </Button>
       </Form>
